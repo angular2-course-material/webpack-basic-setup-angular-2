@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+//import 'uiframework/dist/uiframework.css';
+
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
