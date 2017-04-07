@@ -1,7 +1,8 @@
 module.exports = {
   entry: {
-    'app': './src/main.ts',
-    'vendor': 'src/vendor.ts'
+    'polyfills': 'src/polyfills.ts',
+    'vendor': 'src/vendor.ts',
+    'app': 'src/main.ts'
   },
   output: {
     filename: '[name].js',
